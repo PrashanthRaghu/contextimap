@@ -7,24 +7,24 @@ Usage:
 ==========
 Create the configuration properties file using the following instructions:
 
-touch ~/.imaplibrc.config
+	touch ~/.imaplibrc.config
 
 Use the following as the basic properties configuration:
-[connection_properties]
-hostname=imap.gmail.com ; can be any IMAP hostname gmail's just an example
-usessl=true
-port=993
+	[connection_properties]
+	hostname=imap.gmail.com ; can be any IMAP hostname gmail's just an example\n
+	usessl=true
+	port=993
 
-[user_properties]
-username:[your_username]
-password:[your_password] #Extend this to encapsulate encryption if required.
+	[user_properties]
+	username:[your_username]
+	password:[your_password] #Extend this to encapsulate encryption if required.
 
 Usage Example:
 =============
 
-with ImapHandler() as handler:
-                folderlist = handler.list()
-                print folderlist
+	with ImapHandler() as handler:
+                	folderlist = handler.list()
+                	print folderlist
 
 This print's the folder list for the particular IMAP user.
 
