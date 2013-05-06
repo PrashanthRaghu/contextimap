@@ -10,6 +10,7 @@ Create the configuration properties file using the following instructions:
 	touch ~/.imaplibrc.config
 
 Use the following as the basic properties configuration:
+
 	[connection_properties]
 	hostname=imap.gmail.com ; can be any IMAP hostname gmail's just an example\n
 	usessl=true
