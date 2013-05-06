@@ -26,7 +26,7 @@ with ImapHandler() as handler:
                 folderlist = handler.list()
                 print folderlist
 
-This print's the folder list for the particular user.
+This print's the folder list for the particular IMAP user.
 
 Advantages:
 ==========
