@@ -34,6 +34,7 @@ Advantages:
 1. Learning about Imap lib can be a thing of the past. :P Although you have to.
 2. Code is a lot simplified as with any context management code.
 3. Connection is automatically opened and closed as required.
+4. Simplest way to use IMAP with provider's such as Gmail , Yahoo with python.
 
 
 
