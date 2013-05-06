@@ -1,5 +1,5 @@
-contextimap
-===========
+contextimap : Context lib implementation for imaplib in python
+=========== 
 
 Handles the base to the connection to a Imap based host  , encapsulated in a context manager environment.
 
